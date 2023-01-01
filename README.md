@@ -6,6 +6,12 @@ After running `npm i` (you might want to install the [recommended extensions](./
 
 There are a couple of files in `src` to give idea of how 💩 works.
 
+### `vitest`
+
+Run `npm t` or `npm run test:coverage` to run tests with [vitest](https://vitest.dev/).
+
+[Sample test](./test/lib.test.ts).
+
 ## [Settings](./.vscode/settings.json)
 
 This project includes ESLint with `standard` and `@typescript-eslint` plugins. It also includes Prettier.
